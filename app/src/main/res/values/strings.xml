@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Unlocked</string>
+    <string name="logo_name">BIUST Open</string>
+    <string name="slogan_name">Play The Game</string>
+    <string name="powered_by">Powered By Android</string>
+
+    //Dashboard strings
+
+    //Categories
+    <string name="Home">Home</string>
+    <string name="Latest">Latest</string>
+    <string name="Fixtures">Fixtures</string>
+    <string name="More">More</string>
+    <string name="Courses">Courses</string>
+
+
+    //Title descriptions
+    <string name="featured_courses">All featured golf courses</string>
+    <string name="featured_courses_description">All featured golf courses are readily available for use!</string>
+    <string name="categories">All featured golf courses</string>
+    <string name="view_all">All</string>
+    <string name="search_text">Search....</string>
+</resources>
+

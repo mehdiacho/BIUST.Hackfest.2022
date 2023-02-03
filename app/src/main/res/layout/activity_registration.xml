@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.Registration"
+    android:background="@drawable/sunset_golf">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#94000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="65dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/aldrich"
+                android:text="Registration"
+                android:textColor="@color/white"
+                android:textSize="44sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/input_bg"
+                android:backgroundTint="#90FFFFFF"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                app:iconTintMode="src_in"
+                app:layout_constraintEnd_toEndOf="@+id/inputCategory"
+                app:layout_constraintStart_toStartOf="@+id/inputCategory"
+                app:layout_constraintTop_toBottomOf="@+id/inputCategory" />
+
+            <TextView
+                android:id="@+id/inputFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/ic_baseline_perm_identity_24"
+                android:hint="First Name"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/textView"
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/inputLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/ic_baseline_perm_identity_24"
+                android:hint="Last Name"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/inputFirstName"
+                app:layout_constraintStart_toStartOf="@+id/inputFirstName"
+                app:layout_constraintTop_toBottomOf="@+id/inputFirstName" />
+
+            <TextView
+                android:id="@+id/inputDateOfBirth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/ic_baseline_calendar_month_24"
+                android:hint="Date of Birth"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/inputLastName"
+                app:layout_constraintStart_toStartOf="@+id/inputLastName"
+                app:layout_constraintTop_toBottomOf="@+id/inputLastName" />
+
+            <TextView
+                android:id="@+id/inputCategory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/input_bg"
+                android:drawableRight="@drawable/ic_baseline_category_24"
+                android:hint="Category"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:drawablePadding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/inputDateOfBirth"
+                app:layout_constraintStart_toStartOf="@+id/inputDateOfBirth"
+                app:layout_constraintTop_toBottomOf="@+id/inputDateOfBirth" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/golfybg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIUST OPEN GOLF"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/home"
+                android:padding="10dp"
+                android:text="HOME"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/registration"
+                android:padding="10dp"
+                android:text="REGISTRATION"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/profile"
+                android:padding="10dp"
+                android:text="PROFILE"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="nav"
+                android:drawableTop="@drawable/stats"
+                android:padding="10dp"
+                android:text="STATS"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_fixtures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/fixtures"
+                android:padding="10dp"
+                android:onClick="nav"
+                android:text="FIXTURES AND
+             LEADERBOARDS"
+                android:textColor="@color/white" />
+
+
+            <Button
+                android:id="@+id/btn_payments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="nav"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/payments"
+                android:padding="10dp"
+                android:text="PAYMENTS"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/livestreams"
+                android:padding="10dp"
+                android:text="MEDIA"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_donations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="nav"
+                android:drawableTop="@drawable/donations"
+                android:padding="10dp"
+                android:text="DONATIONS"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_sponsors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/sponsors"
+                android:padding="10dp"
+                android:text="SPONSORS"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_bets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="nav"
+                android:drawableTop="@drawable/bets"
+                android:padding="10dp"
+                android:text="BETS"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/settings"
+                android:padding="10dp"
+                android:text="SETTINGS"
+                android:onClick="nav"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="nav"
+                android:drawableTop="@drawable/logout"
+                android:padding="10dp"
+                android:text="LOG OUT"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+

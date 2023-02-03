@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF9800</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="color_primary">#daa520</color>
+    <color name="color_primary_dark">#FF018786</color>
+    <color name="color_accent">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FFF55334</color>
+
+    //Dashboard colours
+    <color name="home_background">#CDDC39</color>
+    <color name="banner_background">#8BC34A</color>
+    <color name="banner_background_light">#326835</color>
+
+    //Card colours
+    <color name="card1">#8BC34A</color>
+    <color name="card2">#0C72C3</color>
+    <color name="card3">#CE3AE63D</color>
+    <color name="card4">#CDDC39</color>
+    <color name="susnset">#F0B419</color>
+
+
+</resources>
